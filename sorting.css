@@ -1,0 +1,54 @@
+body{
+    background-color: white;
+}
+.row1{
+    background-color: green;
+}
+h1{
+    color: yellow;
+    padding: 8px;
+}
+
+button{
+    border-style: double;
+    font-size: 17px;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 4px 6px 4px 6px;
+}
+
+button:hover{
+    background-color: #00FF00;
+}
+
+#newarr{
+    margin-right: 200px;
+}
+
+#bubble,#selection,#insertion,#merge,#quick,#sizer,#speed{
+    margin-right: 20px;
+}
+
+#bar{
+    color: red;
+    display: flex;
+    justify-content: center;
+    height: 400px;
+    flex-direction: row;
+    padding: 20px 30px 0px 10px;
+}
+  
+.baritem {
+    background: #a9aae6;
+    border: 1.25px solid blue;
+    width: 0.75%;
+  }
+
+a{
+    text-decoration: none;
+    color: aqua;
+}
+
+a:hover{
+    color: #00FF00;
+}
